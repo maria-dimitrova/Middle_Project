@@ -1,0 +1,248 @@
+#big {
+  background-color: #202020; }
+
+#container {
+  width: 95%;
+  margin: auto;
+  font-family: 'Arimo', 'Arial', sans-serif; }
+
+header {
+  display: inline-block;
+  min-height: 150px;
+  border: 10px solid #246A67;
+  border-radius: 15px;
+  background-color: #449D9B;
+  padding: 0;
+  margin-bottom: 10px; }
+  header > div:first-child {
+    float: left; }
+  header > div:last-child {
+    float: right;
+    text-align: center;
+    margin: 5px;
+    color: #053533; }
+    header > div:last-child a {
+      color: blue;
+      text-decoration: underline;
+      float: right;
+      margin: 0 5px 5px 5px; }
+    header > div:last-child label {
+      width: 50%;
+      text-align: right;
+      vertical-align: center; }
+    header > div:last-child input {
+      width: 50%;
+      float: right; }
+    header > div:last-child button {
+      float: right; }
+    header > div:last-child form > div {
+      margin-right: 0;
+      margin-bottom: 5px; }
+  header .carousel-inner > .item > img,
+  header .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 130px;
+    padding-top: 0;
+    margin-top: 0;
+    border-radius: 5px; }
+  header .container {
+    padding-left: 0;
+    width: 77%; }
+
+#enter {
+  font-size: 150%;
+  width: 100%;
+  border: 10px solid #246A67;
+  background-color: #A6E1DF;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #053533; }
+
+#listing {
+  display: inline-block;
+  width: 100%;
+  border: 10px solid #246A67;
+  border-radius: 15px;
+  background-color: #333333;
+  color: #449D9B;
+  margin-bottom: 10px;
+  min-height: 300px;
+  text-align: center; }
+  #listing .float-left {
+    float: left;
+    border: 10px solid #053533;
+    border-radius: 15px;
+    background-color: #449D9B;
+    width: 18%;
+    height: 425px;
+    margin: 10px;
+    margin-left: 15px;
+    color: #053533; }
+    #listing .float-left .panel-default > .panel-heading {
+      background-color: #053533;
+      border-color: #053533;
+      color: #449D9B; }
+    #listing .float-left label {
+      border-radius: 10px;
+      width: 95%;
+      height: 67px;
+      text-align: left;
+      padding: 20px 0 0 40px;
+      font-size: 120%;
+      margin: 3px auto; }
+    #listing .float-left .panel-default > .panel-heading:hover {
+      background-color: #333333; }
+    #listing .float-left h1 {
+      font-weight: bold;
+      font-size: 150%; }
+  #listing .wraper-listing {
+    width: 80%;
+    margin: 15px auto; }
+    #listing .wraper-listing > h1 {
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 200%; }
+  #listing .wraper-listin-2 {
+    float: right;
+    width: 80%;
+    margin-top: 15px; }
+  #listing ul {
+    float: left;
+    width: 25%; }
+    #listing ul img {
+      width: 200px;
+      height: 200px; }
+    #listing ul span {
+      margin: 5px; }
+
+#poster {
+  display: inline-block;
+  width: 100%;
+  border: 10px solid #246A67;
+  border-radius: 15px;
+  background-color: #333333;
+  color: #449D9B;
+  margin-bottom: 10px;
+  text-align: justify; }
+  #poster #wraper-poster {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    color: #449D9B; }
+    #poster #wraper-poster > div:first-child {
+      width: 45%;
+      float: left;
+      margin: 20px; }
+      #poster #wraper-poster > div:first-child img {
+        width: 500px;
+        height: auto; }
+    #poster #wraper-poster > div:last-child {
+      width: 50%;
+      float: left; }
+
+#add-poster {
+  display: inline-block;
+  width: 100%;
+  border: 10px solid #246A67;
+  border-radius: 15px;
+  background-color: #333333;
+  color: #449D9B;
+  margin-bottom: 10px;
+  text-align: center; }
+  #add-poster #wraper-add-poster {
+    width: 60%;
+    margin: 0 auto;
+    color: #449D9B; }
+    #add-poster #wraper-add-poster h1 {
+      margin: 30px auto;
+      background-color: #246A67;
+      border-radius: 5px;
+      width: 60%;
+      padding: 5px; }
+    #add-poster #wraper-add-poster div {
+      width: 60%;
+      display: inline-block; }
+    #add-poster #wraper-add-poster label {
+      float: left; }
+    #add-poster #wraper-add-poster input, #add-poster #wraper-add-poster textarea, #add-poster #wraper-add-poster select {
+      float: right;
+      width: 70%;
+      border-radius: 5px; }
+    #add-poster #wraper-add-poster textarea {
+      height: 150px; }
+    #add-poster #wraper-add-poster .btn-primary {
+      background-color: #246A67;
+      border-color: #246A67;
+      border-radius: 5px;
+      padding: 10px;
+      text-align: left; }
+    #add-poster #wraper-add-poster div:last-child label {
+      width: 30%; }
+    #add-poster #wraper-add-poster button {
+      margin-bottom: 30px;
+      float: left;
+      width: 90px;
+      font-size: 120%; }
+
+#registration {
+  display: inline-block;
+  width: 100%;
+  border: 10px solid #246A67;
+  border-radius: 15px;
+  background-color: #333333;
+  color: #449D9B;
+  margin-bottom: 10px;
+  text-align: center; }
+  #registration #wraper-reg {
+    width: 50%;
+    color: #449D9B; }
+  #registration h1 {
+    margin: 30px auto;
+    background-color: #246A67;
+    border-radius: 5px;
+    width: 70%;
+    padding: 5px; }
+  #registration div {
+    width: 70%;
+    display: inline-block;
+    margin: 5px; }
+  #registration label {
+    float: left;
+    text-align: left;
+    padding-right: 10px; }
+  #registration input {
+    float: right;
+    width: 70%;
+    border-radius: 5px;
+    color: black; }
+  #registration .btn-primary {
+    background-color: #246A67;
+    border-color: #246A67;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left; }
+  #registration div:last-child label {
+    width: 30%; }
+  #registration button {
+    margin-bottom: 30px;
+    float: left;
+    width: 90px;
+    font-size: 120%; }
+
+footer {
+  display: inline-block;
+  text-align: center;
+  border: 10px solid #246A67;
+  border-radius: 15px;
+  background-color: #449D9B;
+  height: 100px; }
+  footer div {
+    width: 33%;
+    float: left;
+    margin: 25px auto; }
+    footer div a {
+      color: #053533;
+      font-weight: bold; }
+
+/*# sourceMappingURL=style_index.css.map */
